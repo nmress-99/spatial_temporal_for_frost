@@ -5,6 +5,11 @@ Repository for spatial and temporal machine learning models used for frost class
 The code within this repository follows a logical flow in order to construct machine learning models.
 BEFORE ANY MODELS ARE BUILT, RUN THE CODE IN THE DATA_EXTRACTION FOLDER.
 
+We have also put some data files that we used for the model in the Data_Files folder. However, this folder
+does not contain the combined_data.csv required for model code usage. The combined_data.csv file exceeds the
+maximum size for GitHub file uploads. As such, the user is responsible for concatenating the CSV files for model
+building and code usage. Alternatively, the data extraction code combines and exports the data by default.
+
 The data leveraged by these models is obtained from the NASA DAV API. The data extraction API calling is separate from
 the model building/evaluation code notebooks. With this said, ensure that you save the data to a CSV in a folder that can
 be found from the rest of the code notebooks for this project.
