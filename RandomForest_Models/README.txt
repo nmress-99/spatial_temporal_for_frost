@@ -8,4 +8,4 @@ This function can be tuned to change how the cost or value of a given model is c
 
 NOTE: This file requires a CSV of data in a valid format to be passed. Valid format is a CSV file that contains
 city names, latitude and longitudes, neighbor numbers, and features/response for the given problem. Please see
-the files in the data folder for an example, or run the Data_Extraction code notebook before running the code here.
+the files in the data folder for an example, or run the code notebooks in the Data_Extraction folder.
