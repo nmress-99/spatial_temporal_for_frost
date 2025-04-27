@@ -13,3 +13,18 @@ building and code usage. Alternatively, the data extraction folder contains a fi
 The data leveraged by these models is obtained from the NASA DAV API. The data extraction API calling is separate from
 the model building/evaluation code notebooks. With this said, ensure that you save the data to a CSV in a folder that can
 be found from the rest of the code notebooks for this project.
+
+## MODELS
+
+This repository contains multiple folders for the different models we constructed to classify frost. Folders are named based
+on the model built from the code inside the folders. The repository has code folders for the following models:
+
+Random Forests:
+- Baseline RF model
+- Spatial RF model (with tuning)
+
+LSTM:
+- LSTM model for temporal component of dataset
+
+CNN + LSTM:
+- CNN + LSTM multi-model approach for spatial and temporal considerations of dataset
