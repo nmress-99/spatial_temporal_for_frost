@@ -18,6 +18,8 @@ The data leveraged by these models is obtained from the NASA DAV API. The data e
 the model building/evaluation code notebooks. With this said, ensure that you save the data to a CSV in a folder that can
 be found from the rest of the code notebooks for this project.
 
+There are separate README files within each subfolder for more specfic information regarding each coding notebook in this repository.
+
 ## DATA FILES / EXTRACTION
 
 As stated above, all data extraction should be done before running model construction code. Please run the code file in the 
