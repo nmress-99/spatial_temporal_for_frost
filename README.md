@@ -1,5 +1,9 @@
-# spatial_temporal_for_frost
-Repository for spatial and temporal machine learning models used for frost classification.
+# Utilizing Robust Geospatial-Temporal Machine Learning Models for Frost Classification
+This repository contains machine learning models to classify frost of target locations given NASA DAV
+satellite data. In this repository, we provide the code necessary to extract data from the NASA DAV API,
+construct various models using the extracted data, and compare different model approaches using a customizable
+cost-value matrix. Our approach in classifying forst utilizes the spatial and temporal aspects of meteorological
+data to provide a more robust, generalizable, and risk-averse solution in classifying frost.
 
 ## USAGE NOTE
 The code within this repository follows a logical flow in order to construct machine learning models.
